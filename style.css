@@ -1,0 +1,86 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(228, 251, 255);
+  color: black;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(130, 38, 89);
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(179, 65, 128);
+  font-size: 20px;
+  line-height: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(179, 65, 128);
+  font-size: 16px;
+  line-height: normal;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+.list-inline {
+  color: rgb(227, 107, 174);
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+.list-inline:hover {
+  color: rgb(248, 161, 209);
+}
+
+.container {
+  padding: 24px;
+  width: 700px;
+  margin: 0 auto;
+}
+.card {
+    padding: 16px;
+    box-shadow: 8px 8px 30px rgb(0 0 0 / 10%);
+    text-align: center;
+    margin: 18px auto;
+    border-radius: 10px;
+}
+
+.button {
+  background-color: rgb(208, 232, 242);
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 8px;
+  border-style: groove;
+}
+
+.button:hover {
+  background-color: rgb(228, 251, 255);
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
